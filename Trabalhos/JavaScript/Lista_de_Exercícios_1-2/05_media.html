@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Média</title>
+</head>
+<body>
+    <h1>Média</h1>
+    <p>
+        <cite>5. Escreva um programa que solicita três números ao usuário e retorna a média deles.</cite> </p>
+</body>
+</html>
+<script>
+	//Declaração de variáveis
+      var entrada, a, b, c, media,mensagem;
+	//Entrada de dados
+     entrada = prompt("Digite um valor para A");
+     a = Number(entrada);
+     entrada = prompt("Digite um valor para B");
+     b = Number(entrada);
+     entrada = prompt("Digite um valor para C");
+     c = Number(entrada);
+	//Processamento de dados
+  media = (a + b + c) / 3;
+  mensagem = `A media de ${a}, ${b} e ${c} é igual a ${media}`;
+
+	//saida de dados
+   alert(mensagem);
+   document.write(mensagem);
+   console.log(a);
+   console.log(b);
+   console.log(c);
+   console.log(media);
+</script>

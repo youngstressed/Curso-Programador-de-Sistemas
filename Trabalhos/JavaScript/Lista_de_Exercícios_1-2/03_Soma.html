@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script type="text/javascript">
+	/** 
+ * Arquivo lib/soma.js 
+*/ 
+ 
+function soma(a, b) { 
+  /* Declaração de variáveis auxiliares */ 
+  let total; 
+   
+  /* Processamento de dados */ 
+  total = Number(a) + Number(b); 
+ 
+  /* Retorno (saída) de dados */ 
+  return total; 
+} 
+ 
+/* Validação de cenários de teste */
+console.log(soma(4, 5));        // 9
+console.log(soma(10, 15));      // 25
+console.log(soma("-3", "7"));   // 4
+</script>
+	<title>Soma</title>
+</head>
+<body>
+	<h1>Soma</h1>
+
+	<p>
+		<cite><hr>3. Escreva um programa que solicita dois números do usuário e retorna a soma.</p> </cite> 
+
+</body>
+<script>
+	//Declaração de variáveis
+     var a, b ,soma,mensagem;
+	//Entrada de dados
+
+	//Processamento de dados
+  a = prompt("Digite o valor de A");
+  b = prompt("Digite o valor de B");
+  soma = a + b;
+  mensagem = "a soma de " + a +" e " + b + " é igual a "+ soma + "!.";
+	//saida de dados
+ alert(mensagem);
+ document.write(mensagem);
+
+</script>
+</html>

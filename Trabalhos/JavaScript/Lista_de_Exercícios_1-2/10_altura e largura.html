@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Altura e a largura</title>
+</head>
+<body>
+	<h1>Altura e largura do retângulo</h1>
+
+	<cite>10. Escreva um programa que solicita a largura e a altura de um retângulo e retorna a área.</cite>
+	
+
+</body>
+</html>
+<script>
+	//Declaração de variáveis
+	var a, l, resul,mensagem, entrada;
+ 
+	//Entrada de dados
+  entrada = prompt("Digite o valor da Altura.");
+  a = Number(entrada);
+  entrada = prompt("Digite o valor da Largura.");
+  l = Number(entrada);
+
+	//Processamento de dados
+  resul = a * l;
+  mensagem = `O valor do retângulo de ${a} e ${l} é igual a ${resul} `
+	//saida de dados
+  alert(mensagem);
+  document.write(mensagem);
+</script>
